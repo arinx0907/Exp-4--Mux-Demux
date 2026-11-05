@@ -15,6 +15,7 @@ Boolean Functions
 <img width="575" height="65" alt="image" src="https://github.com/user-attachments/assets/04c2d90c-0b6b-4b35-b603-d0e10e1e4f00" />
 
 ## Design / RTL Program
+```
 module mux2to1 (
     input  wire A,      // input line 0
     input  wire B,      // input line 1
