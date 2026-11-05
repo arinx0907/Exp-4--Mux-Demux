@@ -37,12 +37,13 @@ endmodule
 
 ```
 ## **Testbench Program
+```
 module tb4;
     reg  A, B, S, D;
     wire Y;
     wire Y0, Y1;
- 
-    // Instantiate the 2:1 Multiplexer
+
+ // Instantiate the 2:1 Multiplexer
     mux2to1 mux_uut (
         .A(A),
         .B(B),
@@ -82,7 +83,7 @@ module tb4;
         #10 $finish;
     end
 endmodule
-
+```
 
 ## Truth Table
 
